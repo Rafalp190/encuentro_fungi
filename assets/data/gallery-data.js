@@ -1,0 +1,61 @@
+window.GALLERY_DATA = {
+  categories: [
+    {
+      id: 'talleres',
+      label: 'Talleres',
+      images: [
+        { src: 'assets/images/gallery/talleres/DSC09166.JPG', label: 'DSC09166' },
+        { src: 'assets/images/gallery/talleres/DSC09167.JPG', label: 'DSC09167' },
+        { src: 'assets/images/gallery/talleres/DSC09168.JPG', label: 'DSC09168' },
+        { src: 'assets/images/gallery/talleres/DSC09169.JPG', label: 'DSC09169' },
+        { src: 'assets/images/gallery/talleres/DSC09170.JPG', label: 'DSC09170' },
+        { src: 'assets/images/gallery/talleres/DSC09171.JPG', label: 'DSC09171' },
+        { src: 'assets/images/gallery/talleres/DSC09176.JPG', label: 'DSC09176' },
+        { src: 'assets/images/gallery/talleres/DSC09189.JPG', label: 'DSC09189' },
+        { src: 'assets/images/gallery/talleres/DSC09190.JPG', label: 'DSC09190' },
+        { src: 'assets/images/gallery/talleres/DSC09191.JPG', label: 'DSC09191' },
+        { src: 'assets/images/gallery/talleres/DSC09194.JPG', label: 'DSC09194' },
+      ],
+    },
+    {
+      id: 'actividades_infantiles',
+      label: 'Actividades infantiles',
+      images: [
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09177.JPG', label: 'DSC09177' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09178.JPG', label: 'DSC09178' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09179.JPG', label: 'DSC09179' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09180.JPG', label: 'DSC09180' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09181.JPG', label: 'DSC09181' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09182.JPG', label: 'DSC09182' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09183.JPG', label: 'DSC09183' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09184.JPG', label: 'DSC09184' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09185.JPG', label: 'DSC09185' },
+        { src: 'assets/images/gallery/actividades_infantiles/DSC09186.JPG', label: 'DSC09186' },
+      ],
+    },
+    {
+      id: 'mercadito',
+      label: 'Mercadito',
+      images: [
+        { src: 'assets/images/gallery/mercadito/DSC09162.JPG', label: 'DSC09162' },
+        { src: 'assets/images/gallery/mercadito/DSC09163.JPG', label: 'DSC09163' },
+        { src: 'assets/images/gallery/mercadito/DSC09164.JPG', label: 'DSC09164' },
+        { src: 'assets/images/gallery/mercadito/DSC09165.JPG', label: 'DSC09165' },
+        { src: 'assets/images/gallery/mercadito/DSC09172.JPG', label: 'DSC09172' },
+        { src: 'assets/images/gallery/mercadito/DSC09173.JPG', label: 'DSC09173' },
+        { src: 'assets/images/gallery/mercadito/DSC09174.JPG', label: 'DSC09174' },
+        { src: 'assets/images/gallery/mercadito/DSC09175.JPG', label: 'DSC09175' },
+      ],
+    },
+    {
+      id: 'participants',
+      label: 'Participantes',
+      images: [
+        { src: 'assets/images/gallery/participants/DSC09187.JPG', label: 'DSC09187' },
+        { src: 'assets/images/gallery/participants/DSC09188.JPG', label: 'DSC09188' },
+        { src: 'assets/images/gallery/participants/DSC09192.JPG', label: 'DSC09192' },
+        { src: 'assets/images/gallery/participants/DSC09193.JPG', label: 'DSC09193' },
+      ],
+    },
+  ],
+};

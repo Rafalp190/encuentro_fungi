@@ -6,6 +6,7 @@
   <title>Encuentro Fungi — Galería</title>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/data/gallery-data.js"></script>
   <script defer src="assets/js/main.js"></script>
 </head>
 <body data-page="gallery">
@@ -43,53 +44,24 @@
     <section class="section">
       <h2 class="section__heading">Selecciona una colección</h2>
       <p class="section__lead">Utiliza los filtros para seleccionar una de las colecciones de las fotografías tomadas por nuestros voluntarios</p>
-      <div class="gallery-filter" role="toolbar" aria-label="Gallery filters">
-        <button class="filter-button is-active" type="button">Todos los momentos</button>
-        <button class="filter-button" type="button">Talleres</button>
-        <button class="filter-button" type="button">Actividades infantiles</button>
-        <button class="filter-button" type="button">Mercadito</button>
-        <button class="filter-button" type="button">Participantes</button>
-      </div>
-      <div class="gallery-grid">
-        <article class="gallery-card">
-          <div class="gallery-thumb" role="img" aria-label="Fotototot">Foto</div>
-          <div class="gallery-caption">
-            Fotototot.
-          </div>
-        </article>
-        <article class="gallery-card">
-          <div class="gallery-thumb" role="img" aria-label="Fotototot">Foto</div>
-          <div class="gallery-caption">
-            Fotototot.
-          </div>
-        </article>
-        <article class="gallery-card">
-          <div class="gallery-thumb" role="img" aria-label="Fotototot">Foto</div>
-          <div class="gallery-caption">
-            Fotototot.
-          </div>
-        </article>
-        <article class="gallery-card">
-          <div class="gallery-thumb" role="img" aria-label="Fotototot">Foto</div>
-          <div class="gallery-caption">
-            Fotototot.
-          </div>
-        </article>
-        <article class="gallery-card">
-          <div class="gallery-thumb" role="img" aria-label="Fotototot">Foto</div>
-          <div class="gallery-caption">
-            Fotototot.
-          </div>
-        </article>
-        <article class="gallery-card">
-          <div class="gallery-thumb" role="img" aria-label="Fotototot">Foto</div>
-          <div class="gallery-caption">
-            Fotototot.
-          </div>
-        </article>
-      </div>
+      <div class="gallery-filter" role="toolbar" aria-label="Gallery filters" data-gallery-filters></div>
+      <p class="gallery-status" data-gallery-status aria-live="polite"></p>
+      <p class="gallery-empty" data-gallery-empty hidden>Todavía no hay imágenes disponibles.</p>
+      <div class="gallery-grid" data-gallery-grid></div>
     </section>
   </main>
+
+  <div class="gallery-modal" data-gallery-modal hidden>
+    <div class="gallery-modal__backdrop" data-gallery-dismiss></div>
+    <div class="gallery-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
+      <button class="gallery-modal__close" type="button" aria-label="Cerrar galería" data-gallery-dismiss>&times;</button>
+      <figure class="gallery-modal__figure">
+        <img class="gallery-modal__image" data-gallery-modal-image alt="">
+        <figcaption class="gallery-modal__caption" id="gallery-modal-title" data-gallery-modal-caption></figcaption>
+      </figure>
+      <a class="gallery-modal__download" data-gallery-modal-download target="_blank" rel="noopener" download>Descargar imagen</a>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="site-footer__inner">
